@@ -1,0 +1,12 @@
+name: First workflow
+on: workflow_dispatch
+jobs:
+ first-job:
+  runs-on: ubuntu-latest
+  steps:
+  - name: print greeting
+    run: echo "welcome to github worlflow"
+  - name: display files
+    run: ls -ltr
+  - name: print bye
+    run: echo "Bye from github actions"
