@@ -10,3 +10,7 @@ jobs:
     run: ls -ltr
   - name: print bye
     run: echo "Bye from github actions"
+  - name: adding new file
+    run: touch newfile.txt > "Hello Sandesh"
+  - name: display file
+    run: ls -ltr
